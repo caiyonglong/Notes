@@ -1,0 +1,10 @@
+########
+calibration compass android
+One not completely reliable way to detect ongoing issues
+is that you can also use the magnetic sensor output and
+do something like field=sqrt(x*x+y*y+z*z) and check that
+field falls between say 25 and 65 and then ask the user
+to calibrate if it does not.
+检测正在进行的问题的一个不完全可靠的方法是，
+您还可以使用磁传感器输出，并执行像field = sqrt（x * x + y * y + z * z）这样的字段，
+并检查该字段是否在25和65之间，然后询问用户是否进行校准。

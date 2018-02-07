@@ -1,0 +1,24 @@
+- Toolbar 的使用  
+使用返回按钮  
+```getSupportActionBar().setDisplayHomeAsUpEnabled(true)```
+
+- Kotlin中 Fragment 传递参数 
+```kotlin
+    // 类似java中的 newInstance
+    companion object {
+        fun newInstance(id: String): WallpaperFragment {
+            val args: Bundle = Bundle()
+            args.putString("cate_id", id)
+            val fragment = WallpaperFragment()
+            fragment.arguments = args
+            return fragment
+        }
+    }
+```
+companion object 伴生对象
+
+Kotlin Companion Object
+Kotlin introduces the companion object to your Android code, which may sound familiar if you know Scala. When a variable (or function) is declared as part of the companion object you can use it just like you would a static member in Java. The difference here is that companion objects in Kotlin are more versatile. Items declared on the companion object are instances of real objects, which means they can implement interfaces. But they act essentially identical to the Java static objects you know and love.
+
+原地址
+https://medium.com/@azjkjensen/using-the-newinstance-pattern-in-kotlin-e40c1b4ba1ef

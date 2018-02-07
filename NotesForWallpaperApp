@@ -1,0 +1,14 @@
+1、使用BaseRecyclerViewAdapterHelper的上拉加载更多时，无限制的加载更多，导致界面卡顿
+
+2、嵌套在Adapter中的 MzBannerView 点击事件无响应
+
+在setPages之前初始化监听事件
+
+3、Android禁止分欧平
+android:resizeableActivity=["true" | "false"]
+
+4、Glide 加载图片并显示进度
+
+5、jsoup 解析html获取数据。总是出现timeout 错误
+
+6、
